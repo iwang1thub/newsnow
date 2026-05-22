@@ -1,5 +1,5 @@
 // API: fetch article content via Cloudflare Worker proxy
-import { myFetch } from "~/server/utils/fetch"
+import { myFetch } from "#/utils/fetch"
 
 function cleanHTML(html: string): string {
   if (!html) return ""
